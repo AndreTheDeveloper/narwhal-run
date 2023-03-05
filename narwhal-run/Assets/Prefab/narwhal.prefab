@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4360075597754079734}
   - component: {fileID: 7790682488286732575}
+  - component: {fileID: 4903942313259350474}
   m_Layer: 0
   m_Name: narwhal
   m_TagString: Untagged
@@ -85,6 +86,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4903942313259350474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740408638416460047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e3ca9332d6430e459cf8e89d261c031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 10
+  rb: {fileID: 0}
 --- !u!1 &7803761360448067402
 GameObject:
   m_ObjectHideFlags: 0
