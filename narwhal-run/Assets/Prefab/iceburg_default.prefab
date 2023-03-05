@@ -120,6 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f10cca10ce8c1845a2a07ee44e7308c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyCoordinates: {x: -31, y: 0, z: 0}
 --- !u!114 &3776413041299875957
 MonoBehaviour:
   m_ObjectHideFlags: 0

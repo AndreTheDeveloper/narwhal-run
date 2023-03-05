@@ -11,10 +11,12 @@ GameObject:
   - component: {fileID: 4360075597754079734}
   - component: {fileID: 7790682488286732575}
   - component: {fileID: 4903942313259350474}
+  - component: {fileID: 4691823435393570908}
   - component: {fileID: 6329809104808408568}
+  - component: {fileID: 2419873210418599629}
   m_Layer: 0
   m_Name: narwhal
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102,6 +104,20 @@ MonoBehaviour:
   fallDelay: 0.5
   rb: {fileID: 6329809104808408568}
   collider: {fileID: 0}
+--- !u!114 &4691823435393570908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740408638416460047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c1f019da9daafd4aace6fb2044169fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMesh: {fileID: 0}
+  tagToDetect: coins
 --- !u!50 &6329809104808408568
 Rigidbody2D:
   serializedVersion: 4
@@ -123,3 +139,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!61 &2419873210418599629
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740408638416460047}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.008152097, y: 0.03428185}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 1, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6236958, y: 0.31860745}
+  m_EdgeRadius: 0

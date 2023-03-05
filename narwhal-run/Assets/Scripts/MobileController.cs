@@ -13,6 +13,8 @@ public class MobileController : MonoBehaviour
     private Vector2 startingPosition;
     private float lastJumpTime;
 
+    public Vector3 fixedRotation;
+
     void Start()
     {
         startingPosition = transform.position;
@@ -21,6 +23,7 @@ public class MobileController : MonoBehaviour
 
     void Update()
     {
+        transform.rotation = Quaternion.Euler(fixedRotation);
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began && !isJumping)
         {
             // Jump when the screen is touched
@@ -49,11 +52,4 @@ public class MobileController : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Obstacle"))
-        {
-            isJumping = false;
-        }
-    }
 }
