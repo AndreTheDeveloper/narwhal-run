@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class MobileController : MonoBehaviour
 {
-  public float jumpForce = 10f;
+   public float jumpForce = 10f;
     public float fallDelay = 0.5f;
     public Rigidbody2D rb;
+    public BoxCollider2D collider;
 
     private bool isJumping = false;
     private Vector2 startingPosition;
     private float lastJumpTime;
-    
+
     void Start()
     {
         startingPosition = transform.position;
@@ -45,6 +46,14 @@ public class MobileController : MonoBehaviour
                 // Object has reached the starting position
                 isJumping = false;
             }
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            isJumping = false;
         }
     }
 }
