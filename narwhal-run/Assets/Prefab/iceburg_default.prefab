@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 3233015427409621846}
   - component: {fileID: 5949273174045166234}
   - component: {fileID: 4625903324701572820}
-  - component: {fileID: 2412161275492541468}
+  - component: {fileID: 3029646377619030573}
+  - component: {fileID: 3776413041299875957}
   m_Layer: 0
   m_Name: iceburg_default
   m_TagString: Untagged
@@ -75,12 +76,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: aa668d50077864947ad06adb0e636a83, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 56232a0300e75e448b97f9d404a7b4ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.25, y: 0.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -107,7 +108,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &2412161275492541468
+--- !u!114 &3029646377619030573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9207802076897239359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f10cca10ce8c1845a2a07ee44e7308c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3776413041299875957
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,3 +132,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65de5a58d7a3fc141975ce2b59f26050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  move_speed: 5

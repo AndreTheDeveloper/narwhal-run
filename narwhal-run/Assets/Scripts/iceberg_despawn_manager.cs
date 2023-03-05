@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class iceberg_despawn_manager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    public Vector3 destroyCoordinates = new Vector3(-31, 0, 0); // Coordinates at which the object should be destroyed
     void Update()
     {
-        
+        if (transform.position.x <= destroyCoordinates.x)
+        {
+            Destroy(gameObject); // Destroy the object when it reaches the specified coordinates
+        }
     }
 }
