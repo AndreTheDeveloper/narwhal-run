@@ -6,11 +6,12 @@ TagManager:
   tags:
   - score
   - coin
+  - iceberg
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PassThrough
   - Water
   - UI
   - 
