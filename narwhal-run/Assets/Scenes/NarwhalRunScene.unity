@@ -346,7 +346,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4903942313259350474, guid: fadd3a704a181bc4cbff5244f488ee3c, type: 3}
+    - {fileID: 4691823435393570908, guid: fadd3a704a181bc4cbff5244f488ee3c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fadd3a704a181bc4cbff5244f488ee3c, type: 3}
 --- !u!1 &2034874629
 GameObject:
@@ -357,7 +359,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2034874631}
-  - component: {fileID: 2034874630}
+  - component: {fileID: 2034874632}
   m_Layer: 0
   m_Name: iceberg_spawner
   m_TagString: Untagged
@@ -365,22 +367,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2034874630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2034874629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b91ba3822ba6654cbf4be4c49b83596, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnableObjects:
-  - {fileID: 9207802076897239359, guid: 93ac831c23c3d3a4697170b11cb1faf4, type: 3}
-  - {fileID: 216498679197514376, guid: ff5855e57f23c694e8209b12038f5041, type: 3}
-  spawnPosition: {x: 20, y: -1.4565, z: 0}
 --- !u!4 &2034874631
 Transform:
   m_ObjectHideFlags: 0
@@ -396,6 +382,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2034874632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034874629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4d9a73690146d2428b3d45c5a84442c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableObjects:
+  - {fileID: 216498679197514376, guid: ff5855e57f23c694e8209b12038f5041, type: 3}
+  - {fileID: 9207802076897239359, guid: 93ac831c23c3d3a4697170b11cb1faf4, type: 3}
+  spawnPosition: {x: 20, y: -1.4565, z: 0}
 --- !u!1001 &1774766930163495390
 PrefabInstance:
   m_ObjectHideFlags: 0

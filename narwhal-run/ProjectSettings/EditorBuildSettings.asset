@@ -8,5 +8,11 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: 6ab4ef8d0128972499050645f800c538
+  - enabled: 1
+    path: Assets/Scenes/NarwhalRunScene.unity
+    guid: 5a940f2244f97ee4bbaa3fd54e9b478a
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 69b7a6ee92cbef24ebbe21ffc68981a8, type: 2}
