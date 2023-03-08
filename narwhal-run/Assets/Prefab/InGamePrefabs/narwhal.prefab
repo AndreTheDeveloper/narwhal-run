@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4360075597754079734}
   - component: {fileID: 7790682488286732575}
+  - component: {fileID: 4903942313259350474}
+  - component: {fileID: 4691823435393570908}
   - component: {fileID: 6329809104808408568}
   - component: {fileID: 2419873210418599629}
-  - component: {fileID: 9150549391459554099}
   m_Layer: 0
   m_Name: narwhal
   m_TagString: GameController
@@ -76,17 +77,48 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c74f4797e22d14448a196756aa673bff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a1e61f8f72006f249b712f01e2defe90, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4903942313259350474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740408638416460047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e3ca9332d6430e459cf8e89d261c031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 12
+  fallDelay: 0.5
+  rb: {fileID: 6329809104808408568}
+  collider: {fileID: 0}
+  fixedRotation: {x: 0, y: 0, z: 0}
+--- !u!114 &4691823435393570908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740408638416460047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c1f019da9daafd4aace6fb2044169fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMesh: {fileID: 0}
+  tagToDetect: coins
 --- !u!50 &6329809104808408568
 Rigidbody2D:
   serializedVersion: 4
@@ -126,7 +158,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.64, y: 0.64}
-    newSize: {x: 1, y: 2}
+    newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -134,20 +166,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6236958, y: 0.31860745}
   m_EdgeRadius: 0
---- !u!114 &9150549391459554099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1740408638416460047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 818c16115d26b904f9ce1451bf7c4237, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpForce: 10
-  fallDelay: 0.5
-  rb: {fileID: 6329809104808408568}
-  collider: {fileID: 2419873210418599629}
-  fixedRotation: {x: 0, y: 0, z: 0}
