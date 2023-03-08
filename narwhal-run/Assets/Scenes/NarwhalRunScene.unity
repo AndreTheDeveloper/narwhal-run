@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319433198}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.02, y: 0, z: 1}
+  m_LocalPosition: {x: 0.04, y: 0, z: 1}
   m_LocalScale: {x: 9.080047, y: 5.658732, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -345,6 +345,38 @@ PrefabInstance:
     - target: {fileID: 4360075597754079734, guid: fadd3a704a181bc4cbff5244f488ee3c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150549391459554099, guid: fadd3a704a181bc4cbff5244f488ee3c, type: 3}
+      propertyPath: hangTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150549391459554099, guid: fadd3a704a181bc4cbff5244f488ee3c, type: 3}
+      propertyPath: jumpTime
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150549391459554099, guid: fadd3a704a181bc4cbff5244f488ee3c, type: 3}
+      propertyPath: fallDelay
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150549391459554099, guid: fadd3a704a181bc4cbff5244f488ee3c, type: 3}
+      propertyPath: jumpForce
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150549391459554099, guid: fadd3a704a181bc4cbff5244f488ee3c, type: 3}
+      propertyPath: jumpTimer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150549391459554099, guid: fadd3a704a181bc4cbff5244f488ee3c, type: 3}
+      propertyPath: pauseTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150549391459554099, guid: fadd3a704a181bc4cbff5244f488ee3c, type: 3}
+      propertyPath: jumpHeight
+      value: 6.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150549391459554099, guid: fadd3a704a181bc4cbff5244f488ee3c, type: 3}
+      propertyPath: jumpDuration
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4903942313259350474, guid: fadd3a704a181bc4cbff5244f488ee3c, type: 3}

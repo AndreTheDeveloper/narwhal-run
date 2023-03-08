@@ -4,52 +4,38 @@ using UnityEngine;
 
 public class MobileController : MonoBehaviour
 {
-   public float jumpForce = 10f;
-    public float fallDelay = 0.5f;
-    public Rigidbody2D rb;
-    public BoxCollider2D collider;
-
     private bool isJumping = false;
     private Vector2 startingPosition;
-    private float lastJumpTime;
-
-    public Vector3 fixedRotation;
+    public float jumpHeight = 5f;
+    public float jumpDuration = 0.5f;
+    public float jumpTimer = 0f;
 
     void Start()
     {
         startingPosition = transform.position;
-        lastJumpTime = Time.time;
     }
 
     void Update()
     {
-        transform.rotation = Quaternion.Euler(fixedRotation);
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began && !isJumping)
         {
-            // Jump when the screen is touched
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             isJumping = true;
-            lastJumpTime = Time.time;
+            jumpTimer = 0f;
         }
-    }
 
-    void FixedUpdate()
-    {
-        if (isJumping && Time.time - lastJumpTime > fallDelay)
+        if (isJumping)
         {
-            // Set the object's velocity to zero when falling down
-            rb.velocity = Vector2.zero;
-            if (transform.position.y > startingPosition.y)
+            float normalizedTime = jumpTimer / jumpDuration;
+            float jumpForce = Mathf.Sin(normalizedTime * Mathf.PI) * jumpHeight;
+            transform.position = startingPosition + Vector2.up * jumpForce;
+
+            jumpTimer += Time.deltaTime;
+
+            if (jumpTimer >= jumpDuration)
             {
-                // Move the object down towards the starting position
-                transform.position = Vector2.MoveTowards(transform.position, startingPosition, Time.deltaTime * 10f);
-            }
-            else
-            {
-                // Object has reached the starting position
                 isJumping = false;
+                transform.position = startingPosition;
             }
         }
     }
-
 }
