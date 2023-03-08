@@ -397,6 +397,8 @@ MonoBehaviour:
   spawnableObjects:
   - {fileID: 216498679197514376, guid: ff5855e57f23c694e8209b12038f5041, type: 3}
   - {fileID: 9207802076897239359, guid: 93ac831c23c3d3a4697170b11cb1faf4, type: 3}
+  - {fileID: 5895218101969776096, guid: 4ef96d9d00a32d74fb76aad78dc8ff76, type: 3}
+  - {fileID: 7442613013421622188, guid: 3dc784b8350b68441a8ca924867ea179, type: 3}
   spawnPosition: {x: 20, y: -1.4565, z: 0}
 --- !u!1001 &1774766930163495390
 PrefabInstance:

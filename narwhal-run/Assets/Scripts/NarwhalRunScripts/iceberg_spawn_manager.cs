@@ -13,8 +13,25 @@ public class iceberg_spawn_manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Spawn_Initiation();
+
         spawning = true;
         StartCoroutine(SpawnObject());
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    void Spawn_Initiation()
+    {
+        int randomIndex = Random.Range(0, spawnableObjects.Count);
+        GameObject objectToSpawn = spawnableObjects[randomIndex];
+
+        // Spawn the object at the specified position
+        Instantiate(objectToSpawn, spawnPosition, Quaternion.identity);
     }
 
     IEnumerator SpawnObject()
@@ -33,9 +50,4 @@ public class iceberg_spawn_manager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
