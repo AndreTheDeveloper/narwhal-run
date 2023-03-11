@@ -16,9 +16,10 @@ public class MobileController : MonoBehaviour
     private Rigidbody2D rb;
     private float timeInAir = 0f;
     public TextMeshProUGUI textMesh; // Assign this in the inspector to the TextMeshPro component you want to increment
-    public string tagToDetect = ""; // Assign this in the inspector to the tag you want to detect collisions with
-
-    private int collisionCount = 0;
+    private int scoreCount = 0;
+    private int pointsToAdd = 1;
+    private float multiplyTimer = 15f;
+    private bool multipler = false;
 
     void Start()
     {
@@ -61,14 +62,23 @@ public class MobileController : MonoBehaviour
                 transform.rotation = Quaternion.identity;
             }
         }
+        if(multipler) {
+            multiplyTimer -= Time.deltaTime;
+            pointsToAdd = 2;
+            if (multiplyTimer <= 0f) {
+                pointsToAdd = 1;
+            }
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag(tagToDetect))
+        if (collision.gameObject.CompareTag("coin"))
         {
-            collisionCount++;
-            textMesh.text = collisionCount.ToString();
-            
+            scoreCount += pointsToAdd;
+            textMesh.text = scoreCount.ToString();
+        }
+        else if (collision.gameObject.CompareTag("x2")) {
+            multipler = true;
         }
     }
 }
