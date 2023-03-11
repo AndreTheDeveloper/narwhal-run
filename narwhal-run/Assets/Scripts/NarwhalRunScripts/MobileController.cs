@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.Threading;
+using TMPro;
 
 public class MobileController : MonoBehaviour
 {
    private bool isJumping = false;
-    private bool reachedHighestPoint = false;
     private Vector2 startingPosition;
     public float jumpHeight = 5f;
     public float jumpDuration = 0.5f;
@@ -15,6 +15,10 @@ public class MobileController : MonoBehaviour
     private float tiltAngle = 0f;
     private Rigidbody2D rb;
     private float timeInAir = 0f;
+    public TextMeshProUGUI textMesh; // Assign this in the inspector to the TextMeshPro component you want to increment
+    public string tagToDetect = ""; // Assign this in the inspector to the tag you want to detect collisions with
+
+    private int collisionCount = 0;
 
     void Start()
     {
@@ -41,7 +45,6 @@ public class MobileController : MonoBehaviour
             timeInAir += Time.deltaTime;
 
             if(timeInAir >= 1.251) {
-                Debug.Log(timeInAir);
                 tiltAngle = -45;
             } else {
                 tiltAngle = 45;
@@ -57,6 +60,15 @@ public class MobileController : MonoBehaviour
                 transform.position = startingPosition;
                 transform.rotation = Quaternion.identity;
             }
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag(tagToDetect))
+        {
+            collisionCount++;
+            textMesh.text = collisionCount.ToString();
+            
         }
     }
 }
