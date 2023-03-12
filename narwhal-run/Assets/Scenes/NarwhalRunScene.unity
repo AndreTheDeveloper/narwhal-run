@@ -419,11 +419,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
-    m_FontSize: 1
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 55
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -819,6 +819,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 257360151664917505, guid: 5e9bf7aa0f80b4c45b34f11aedd0602a, type: 3}
+      propertyPath: coinCordinates.Array.data[0].x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 257360151664917505, guid: 5e9bf7aa0f80b4c45b34f11aedd0602a, type: 3}
+      propertyPath: coinCordinates.Array.data[1].x
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 257360151664917516, guid: 5e9bf7aa0f80b4c45b34f11aedd0602a, type: 3}
       propertyPath: m_Name
       value: Spawn_Manager
