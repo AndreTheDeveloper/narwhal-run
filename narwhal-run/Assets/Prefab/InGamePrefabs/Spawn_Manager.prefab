@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &257360151664917516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 257360151664917518}
+  - component: {fileID: 257360151664917505}
+  m_Layer: 0
+  m_Name: Spawn_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &257360151664917518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257360151664917516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.32, y: -0.31514865, z: 0.002794377}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &257360151664917505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257360151664917516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4d9a73690146d2428b3d45c5a84442c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableObjects:
+  - {fileID: 9207802076897239359, guid: 93ac831c23c3d3a4697170b11cb1faf4, type: 3}
+  - {fileID: 3606315974515113041, guid: 50f9761127ec1c84fb46802cb376d60e, type: 3}
+  - {fileID: 7442613013421622188, guid: 3dc784b8350b68441a8ca924867ea179, type: 3}
+  - {fileID: 5895218101969776096, guid: 4ef96d9d00a32d74fb76aad78dc8ff76, type: 3}
+  - {fileID: 216498679197514376, guid: ff5855e57f23c694e8209b12038f5041, type: 3}
+  - {fileID: 1023435318475035327, guid: e893527593d92d544ac9e12f45318a95, type: 3}
+  pickups: []
+  coinCordinates:
+  - {x: 0, y: 4.2, z: 0}
+  - {x: 0, y: -2.58, z: 0}
+  icebergSpawnPosition: {x: 20, y: -1.4565, z: 0}
