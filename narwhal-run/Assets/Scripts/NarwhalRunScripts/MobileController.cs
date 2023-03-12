@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System;
 using System.Threading;
-using TMPro;
 
 public class MobileController : MonoBehaviour
 {
@@ -15,7 +15,7 @@ public class MobileController : MonoBehaviour
     private float tiltAngle = 0f;
     private Rigidbody2D rb;
     private float timeInAir = 0f;
-    public TextMeshProUGUI textMesh; // Assign this in the inspector to the TextMeshPro component you want to increment
+    public Text text;
     private int scoreCount = 0;
     private int pointsToAdd = 1;
     private float multiplyTimer = 15f;
@@ -75,7 +75,7 @@ public class MobileController : MonoBehaviour
         if (collision.gameObject.CompareTag("coin"))
         {
             scoreCount += pointsToAdd;
-            textMesh.text = scoreCount.ToString();
+            text.text = scoreCount.ToString();
         }
         else if (collision.gameObject.CompareTag("x2")) {
             multipler = true;
