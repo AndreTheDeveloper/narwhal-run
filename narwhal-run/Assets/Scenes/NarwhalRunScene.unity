@@ -286,7 +286,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -405,6 +405,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpHeight: 6.8
   jumpDuration: 2.5
+  textMesh: {fileID: 0}
+  tagToDetect: 
 --- !u!1 &2034874629
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,7 +418,7 @@ GameObject:
   - component: {fileID: 2034874631}
   - component: {fileID: 2034874632}
   m_Layer: 0
-  m_Name: iceberg_spawner
+  m_Name: Spawn_Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -450,66 +452,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnableObjects:
-  - {fileID: 216498679197514376, guid: ff5855e57f23c694e8209b12038f5041, type: 3}
   - {fileID: 9207802076897239359, guid: 93ac831c23c3d3a4697170b11cb1faf4, type: 3}
-  - {fileID: 5895218101969776096, guid: 4ef96d9d00a32d74fb76aad78dc8ff76, type: 3}
+  - {fileID: 3606315974515113041, guid: 50f9761127ec1c84fb46802cb376d60e, type: 3}
   - {fileID: 7442613013421622188, guid: 3dc784b8350b68441a8ca924867ea179, type: 3}
-  - {fileID: 8126110974617118088, guid: 2e89a3013e16bdc44bf7503f03cf558f, type: 3}
-  spawnPosition: {x: 20, y: -1.4565, z: 0}
---- !u!1001 &1774766930163495390
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1023435318475035327, guid: e893527593d92d544ac9e12f45318a95, type: 3}
-      propertyPath: m_Name
-      value: Circle
-      objectReference: {fileID: 0}
-    - target: {fileID: 1472694544281534468, guid: e893527593d92d544ac9e12f45318a95, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1472694544281534468, guid: e893527593d92d544ac9e12f45318a95, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 1472694544281534468, guid: e893527593d92d544ac9e12f45318a95, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 1472694544281534468, guid: e893527593d92d544ac9e12f45318a95, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1472694544281534468, guid: e893527593d92d544ac9e12f45318a95, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1472694544281534468, guid: e893527593d92d544ac9e12f45318a95, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1472694544281534468, guid: e893527593d92d544ac9e12f45318a95, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1472694544281534468, guid: e893527593d92d544ac9e12f45318a95, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1472694544281534468, guid: e893527593d92d544ac9e12f45318a95, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1472694544281534468, guid: e893527593d92d544ac9e12f45318a95, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1472694544281534468, guid: e893527593d92d544ac9e12f45318a95, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e893527593d92d544ac9e12f45318a95, type: 3}
+  - {fileID: 5895218101969776096, guid: 4ef96d9d00a32d74fb76aad78dc8ff76, type: 3}
+  - {fileID: 216498679197514376, guid: ff5855e57f23c694e8209b12038f5041, type: 3}
+  - {fileID: 1023435318475035327, guid: e893527593d92d544ac9e12f45318a95, type: 3}
+  pickups: []
+  coinCordinates:
+  - {x: 20, y: 4.2, z: 0}
+  - {x: 20, y: -2.58, z: 0}
+  icebergSpawnPosition: {x: 20, y: -1.4565, z: 0}
