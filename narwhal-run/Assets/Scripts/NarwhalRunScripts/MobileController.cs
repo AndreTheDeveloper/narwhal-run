@@ -20,6 +20,7 @@ public class MobileController : MonoBehaviour
     private int pointsToAdd = 1;
     private float multiplyTimer = 15f;
     private bool multipler = false;
+    public AudioSource audioSource;
 
     void Start()
     {
@@ -76,6 +77,7 @@ public class MobileController : MonoBehaviour
         {
             scoreCount += pointsToAdd;
             text.text = scoreCount.ToString();
+            audioSource.Play();
         }
         else if (collision.gameObject.CompareTag("x2")) {
             multipler = true;
