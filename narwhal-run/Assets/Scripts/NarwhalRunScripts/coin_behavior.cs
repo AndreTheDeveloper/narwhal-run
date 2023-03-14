@@ -15,7 +15,8 @@ public class coin_behavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.left * move_speed * Time.deltaTime);
+        if(PauseController.isPaused == false)
+            transform.Translate(Vector3.left * move_speed * Time.deltaTime);
     }
     void OnCollisionEnter2D(Collision2D collision)
 {

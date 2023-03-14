@@ -15,7 +15,7 @@ D:/UnityProjects/narwhal-run/narwhal-run
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52941
+58867
 Successfully changed project path to: D:/UnityProjects/narwhal-run/narwhal-run
 D:/UnityProjects/narwhal-run/narwhal-run
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/UnityProjects/narwhal-run/narwhal-run
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25508] Host "[IP] 192.168.120.65 [Port] 0 [Flags] 2 [Guid] 2301194326 [EditorId] 2301194326 [Version] 1048832 [Id] WindowsEditor(7,AndrePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [75020] Host "[IP] 192.168.1.92 [Port] 0 [Flags] 2 [Guid] 2500527008 [EditorId] 2500527008 [Version] 1048832 [Id] WindowsEditor(7,AndrePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25508] Host "[IP] 192.168.120.65 [Port] 0 [Flags] 2 [Guid] 2301194326 [EditorId] 2301194326 [Version] 1048832 [Id] WindowsEditor(7,AndrePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [75020] Host "[IP] 192.168.1.92 [Port] 0 [Flags] 2 [Guid] 2500527008 [EditorId] 2500527008 [Version] 1048832 [Id] WindowsEditor(7,AndrePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 65.40 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 67.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.20f1 (577897200b8b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -67,97 +67,97 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003486 seconds.
+Registered in 0.003232 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 214 ms
+Android Extension - Scanning For ADB Devices 165 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.65 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 55.21 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.581 seconds
+- Completed reload, in  0.542 seconds
 Domain Reload Profiling:
-	ReloadAssembly (582ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (543ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (482ms)
-			LoadAssemblies (47ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (424ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (61ms)
+			SetupTypeCache (54ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (15ms)
-			SetupLoadedEditorAssemblies (378ms)
+			RebuildScriptCaches (13ms)
+			SetupLoadedEditorAssemblies (331ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (258ms)
+				InitializePlatformSupportModulesInManaged (208ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
+				RefreshPlugins (55ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (46ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003871 seconds.
+Registered in 0.003074 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 52.02 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 51.78 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  0.673 seconds
+- Completed reload, in  0.609 seconds
 Domain Reload Profiling:
-	ReloadAssembly (673ms)
+	ReloadAssembly (609ms)
 		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (550ms)
-			LoadAssemblies (55ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (488ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (124ms)
+			SetupTypeCache (121ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (303ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (252ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (52ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (147ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4000 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 50 unused Assets / (56.5 KB). Loaded Objects now: 4448.
 Memory consumption went from 152.6 MB to 152.5 MB.
-Total: 3.585200 ms (FindLiveObjects: 0.298100 ms CreateObjectMapping: 0.102300 ms MarkObjects: 3.126100 ms  DeleteObjects: 0.058400 ms)
+Total: 2.404700 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.053700 ms MarkObjects: 2.019400 ms  DeleteObjects: 0.065100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,69 +171,115 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 626947.319729 seconds.
-  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
-  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47fe669cfe653cdb4e272a7b0275916') in 0.064777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
-  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036107df99d6b2e1376eb64cff7a4cc9') in 0.007806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
-  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164f796de56c99bbaa048590ff2efc84') in 0.006870 seconds 
+  Time since last request: 795704.073037 seconds.
+  path: Assets/Sounds/CoinCollecting.wav
+  artifactKey: Guid(b9a5117c842a71f42b247b52f2a7e8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/CoinCollecting.wav using Guid(b9a5117c842a71f42b247b52f2a7e8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0413b76b8921b0b7fcb99baead84e966') in 0.071948 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003544 seconds.
+Registered in 0.003414 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.618 seconds
+- Completed reload, in  0.550 seconds
 Domain Reload Profiling:
-	ReloadAssembly (619ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (550ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (466ms)
-			LoadAssemblies (66ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (405ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
+			SetupTypeCache (129ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (195ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (163ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (24.6 KB). Loaded Objects now: 4461.
+Memory consumption went from 154.5 MB to 154.5 MB.
+Total: 2.303700 ms (FindLiveObjects: 0.237400 ms CreateObjectMapping: 0.046100 ms MarkObjects: 2.001200 ms  DeleteObjects: 0.018300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003357 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.518 seconds
+Domain Reload Profiling:
+	ReloadAssembly (518ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (393ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (167ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.52 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (24.6 KB). Loaded Objects now: 4459.
+Unloading 37 unused Assets / (24.7 KB). Loaded Objects now: 4464.
 Memory consumption went from 154.5 MB to 154.5 MB.
-Total: 2.650500 ms (FindLiveObjects: 0.231000 ms CreateObjectMapping: 0.066200 ms MarkObjects: 2.334400 ms  DeleteObjects: 0.018500 ms)
+Total: 2.629200 ms (FindLiveObjects: 0.229200 ms CreateObjectMapping: 0.061600 ms MarkObjects: 2.321800 ms  DeleteObjects: 0.016200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -246,121 +292,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 90.605566 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab
-  artifactKey: Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab using Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47dca033f00727d6a45cd590c26654c3') in 0.092338 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003305 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.562 seconds
-Domain Reload Profiling:
-	ReloadAssembly (562ms)
-		BeginReloadAssembly (89ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (421ms)
-			LoadAssemblies (57ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (183ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (105ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (24.7 KB). Loaded Objects now: 4462.
-Memory consumption went from 154.5 MB to 154.5 MB.
-Total: 2.330000 ms (FindLiveObjects: 0.224600 ms CreateObjectMapping: 0.046600 ms MarkObjects: 2.041400 ms  DeleteObjects: 0.017000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 56.785503 seconds.
-  path: Assets/Scripts/NarwhalRunScripts/coin_behavior.cs
-  artifactKey: Guid(29715ea070b6a9349aacebd04e7e2919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NarwhalRunScripts/coin_behavior.cs using Guid(29715ea070b6a9349aacebd04e7e2919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905799184d41eed5929a1ee185cc6393') in 0.012773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 40.690230 seconds.
-  path: Assets/Prefab/InGamePrefabs/Coin.prefab
-  artifactKey: Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InGamePrefabs/Coin.prefab using Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cc2fa566ac0eadbd7980564d671de3') in 0.030358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.974365 seconds.
-  path: Assets/Prefab/InGamePrefabs/Coin.prefab
-  artifactKey: Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InGamePrefabs/Coin.prefab using Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38341ba8595a9afa0c11828e68a0921d') in 0.004521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.794958 seconds.
-  path: Assets/Prefab/InGamePrefabs/Coin.prefab
-  artifactKey: Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InGamePrefabs/Coin.prefab using Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed071bca55cd9d70024dee9a4f7f7872') in 0.004744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.024506 seconds.
-  path: Assets/Prefab/InGamePrefabs/Coin.prefab
-  artifactKey: Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InGamePrefabs/Coin.prefab using Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0f09f435514d3040569e46ebb80075') in 0.005047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.251854 seconds.
-  path: Assets/Prefab/InGamePrefabs/Coin.prefab
-  artifactKey: Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InGamePrefabs/Coin.prefab using Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32037d666347b31cd53fe2c99a82cce5') in 0.004762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.578108 seconds.
-  path: Assets/Prefab/InGamePrefabs/Coin.prefab
-  artifactKey: Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InGamePrefabs/Coin.prefab using Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2a32294653a1e578eb1f889ac277e8') in 0.004460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.983738 seconds.
-  path: Assets/Scripts/NarwhalRunScripts/MobileController.cs
-  artifactKey: Guid(818c16115d26b904f9ce1451bf7c4237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NarwhalRunScripts/MobileController.cs using Guid(818c16115d26b904f9ce1451bf7c4237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f6bb4c1e9a3e857209c55866096c81') in 0.003629 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003256 seconds.
+Registered in 0.003122 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -370,98 +304,98 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.507 seconds
+- Completed reload, in  0.572 seconds
 Domain Reload Profiling:
-	ReloadAssembly (507ms)
+	ReloadAssembly (572ms)
 		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (376ms)
-			LoadAssemblies (52ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (439ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (112ms)
+			SetupTypeCache (130ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (159ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (191ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (24.6 KB). Loaded Objects now: 4467.
+Memory consumption went from 154.5 MB to 154.5 MB.
+Total: 2.655300 ms (FindLiveObjects: 0.242400 ms CreateObjectMapping: 0.058600 ms MarkObjects: 2.336600 ms  DeleteObjects: 0.017200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003475 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.588 seconds
+Domain Reload Profiling:
+	ReloadAssembly (588ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (440ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (134ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (24.7 KB). Loaded Objects now: 4465.
-Memory consumption went from 154.6 MB to 154.5 MB.
-Total: 2.383300 ms (FindLiveObjects: 0.233000 ms CreateObjectMapping: 0.053700 ms MarkObjects: 2.077500 ms  DeleteObjects: 0.018600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003128 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.591 seconds
-Domain Reload Profiling:
-	ReloadAssembly (591ms)
-		BeginReloadAssembly (83ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (458ms)
-			LoadAssemblies (53ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (202ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (117ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.01 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (24.6 KB). Loaded Objects now: 4468.
-Memory consumption went from 154.6 MB to 154.5 MB.
-Total: 2.433900 ms (FindLiveObjects: 0.250300 ms CreateObjectMapping: 0.049300 ms MarkObjects: 2.113700 ms  DeleteObjects: 0.019900 ms)
+Unloading 37 unused Assets / (24.7 KB). Loaded Objects now: 4470.
+Memory consumption went from 154.5 MB to 154.5 MB.
+Total: 2.623100 ms (FindLiveObjects: 0.231000 ms CreateObjectMapping: 0.050900 ms MarkObjects: 2.322400 ms  DeleteObjects: 0.018200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -475,57 +409,179 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 70.593753 seconds.
-  path: Assets/Prefab/InGamePrefabs/Coin.prefab
-  artifactKey: Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InGamePrefabs/Coin.prefab using Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd0c53acb31a892517df594e2e3b096') in 0.033782 seconds 
+  Time since last request: 484.182630 seconds.
+  path: Assets/Sounds/402288__matrixxx__retro_coin_02.wav
+  artifactKey: Guid(63b4697e2ffb27040b78090f48f5b1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/402288__matrixxx__retro_coin_02.wav using Guid(63b4697e2ffb27040b78090f48f5b1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff404afc8aab7c8ccea9c3c0fcd3ec6') in 0.030149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.133418 seconds.
+  path: Assets/Sounds/CoinCollector.wav
+  artifactKey: Guid(63b4697e2ffb27040b78090f48f5b1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/CoinCollector.wav using Guid(63b4697e2ffb27040b78090f48f5b1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b523377d1d819786472305428d96b61') in 0.005704 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002972 seconds.
+Registered in 0.002925 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.525 seconds
+- Completed reload, in  0.623 seconds
 Domain Reload Profiling:
-	ReloadAssembly (525ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (623ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (26ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (392ms)
-			LoadAssemblies (51ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (437ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (112ms)
+			SetupTypeCache (128ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (173ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (189ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (25.7 KB). Loaded Objects now: 4471.
+Unloading 37 unused Assets / (24.7 KB). Loaded Objects now: 4473.
+Memory consumption went from 154.6 MB to 154.5 MB.
+Total: 2.830600 ms (FindLiveObjects: 0.252100 ms CreateObjectMapping: 0.047300 ms MarkObjects: 2.515500 ms  DeleteObjects: 0.014900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003254 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.593 seconds
+Domain Reload Profiling:
+	ReloadAssembly (593ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (448ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (195ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (24.6 KB). Loaded Objects now: 4476.
+Memory consumption went from 154.6 MB to 154.5 MB.
+Total: 2.256300 ms (FindLiveObjects: 0.230000 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.960900 ms  DeleteObjects: 0.018700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003536 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.595 seconds
+Domain Reload Profiling:
+	ReloadAssembly (596ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (457ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (188ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (24.6 KB). Loaded Objects now: 4479.
 Memory consumption went from 154.6 MB to 154.6 MB.
-Total: 2.789100 ms (FindLiveObjects: 0.291300 ms CreateObjectMapping: 0.113000 ms MarkObjects: 2.365200 ms  DeleteObjects: 0.018900 ms)
+Total: 2.286200 ms (FindLiveObjects: 0.216400 ms CreateObjectMapping: 0.063600 ms MarkObjects: 1.991400 ms  DeleteObjects: 0.014300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -539,57 +595,1553 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.512823 seconds.
-  path: Assets/Prefab/InGamePrefabs/Coin.prefab
-  artifactKey: Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InGamePrefabs/Coin.prefab using Guid(e893527593d92d544ac9e12f45318a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c7e13b223653363d58441af43dcc03') in 0.034430 seconds 
+  Time since last request: 6759.190149 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f97db29ec837b3fc5eeadc4e02fd80e') in 0.019562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.362531 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00b1e01f4e99d097b0081bdec658659') in 0.032323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 249.646332 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe158954fe4797144ff0516de4322b8d') in 0.006877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.091208 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2936f93908b9cc7e65d96198e22fb62') in 0.006531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.228754 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0973eb933a5d2571a6780d1f2d0cebf') in 0.006538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.916516 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6142e1d1533b8a697c5478fc9526409') in 0.006159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.148899 seconds.
+  path: Assets/Scripts/NarwhalRunScripts/MobileController.cs
+  artifactKey: Guid(818c16115d26b904f9ce1451bf7c4237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NarwhalRunScripts/MobileController.cs using Guid(818c16115d26b904f9ce1451bf7c4237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c722c5e6ae951a88abc4607c2c253d8e') in 0.009987 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002978 seconds.
+Registered in 0.003080 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.595 seconds
+- Completed reload, in  0.505 seconds
 Domain Reload Profiling:
-	ReloadAssembly (595ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (505ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (456ms)
-			LoadAssemblies (56ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (371ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
+			SetupTypeCache (111ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (191ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (160ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (24.6 KB). Loaded Objects now: 4482.
+Memory consumption went from 154.6 MB to 154.6 MB.
+Total: 2.750300 ms (FindLiveObjects: 0.202200 ms CreateObjectMapping: 0.076300 ms MarkObjects: 2.452300 ms  DeleteObjects: 0.019200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 102.201739 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f7805ce6531845d2146ad905810b5d') in 0.035462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.006862 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6934e3b85fc58a64a5b917426e034597') in 0.004791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.637216 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76e39e3e6f596ed2222e6d28a5746c9') in 0.004306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.413363 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90731df8ed742431dd2a40ac45d99680') in 0.004218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.497491 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bbd49587e031bf04d5f8450b2f6cba') in 0.004218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.411187 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a9c9bcae75b2405289f66dab0d76e8') in 0.004089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.389741 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67526dabd5abce007b642992b734f1a7') in 0.013269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.397857 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46efbb47ee3f11937428772a26d88ad') in 0.004484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.168047 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc41078f4f31ca7b62d5dc927340a79') in 0.004010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.605329 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba51f6150eae6b6e9d98963d44dea0e') in 0.004341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.809903 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3546d6c1aed401257bcfc44da63b184') in 0.004578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.789680 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a086e31d7b1326a9282a7ca00fd72a') in 0.004361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.409096 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea72a8bd993e38734043acf883a8ea17') in 0.004005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.400915 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643c2d7c242757a79b9c7ff489110dce') in 0.004374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.217550 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09b6ace0e775a3394423d6bf6a4c148') in 0.004717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.814695 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb754debe8014a9a79143ee97bf6000') in 0.004078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.809453 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99194bc8f33b5e189bd068621fe14bf5') in 0.004305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.793632 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954be42461896f93847f4524d3177ea3') in 0.004026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.398564 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077a76a4280c01367aa50b13073dc659') in 0.004106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.608013 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28d46eadc0ee4fe1c456df35af69af5') in 0.003943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.199854 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14940518690cc1fa08b7a5b8666f3695') in 0.004007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.990471 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89ece9f6ca0e97efc2da3b685fcd1a3') in 0.004502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.198485 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e422fc64ee10762e7f8126430eabf1') in 0.004279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.601552 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0f6bc02f3fa0d6c8c2e7070a8ba1b6') in 0.004204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.018890 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed1a0b9e2c2b8ad3cbaef0fae9cfd4c') in 0.006454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.968867 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b276cbbbb9319afe720706759e1b655') in 0.004247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.813744 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440148ed1169583a292e0af4cb27422e') in 0.003967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.001176 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f8ec31ed2ab39578460e4a0222c6de') in 0.004169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.382539 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a61a005af49b2c8c5e8656cc13dbbb') in 0.004130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.416065 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e21fba52cc27236b96a2a78c00bfc6') in 0.004110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.207596 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44081793d003d8cb105af6dcd8706b62') in 0.004332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.217521 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15bd197a2da329587c271ec4161a0a6') in 0.004605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.178287 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e462828dfdf3a8f3fff4213301303a35') in 0.004548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.604973 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd017221b85dcbbd3ae79dd2eff5cf75f') in 0.004024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.402080 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bfc614ef303a333e7dfd9a3f51b384') in 0.006277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.888228 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8753729fabe905472e06dfa3f5aa55a9') in 0.004269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.723281 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5690d91e19bae0a9038e773a788fea') in 0.004319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.606367 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339a2b00ed30f0a1f4711de2e3152be0') in 0.004126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.796028 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac5d64ec98adf289f1ef3cf6c037e44') in 0.004635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.012977 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c673ec1af1c99f81fdcf44d8be1858') in 0.003947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.012440 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035ebd9be2b94d9c9a7151c95e065113') in 0.004028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.603002 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5fb7a1271298ac17d588ed58b96557') in 0.004783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.788367 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aee7351d11d859e06a0db0d181ed124') in 0.004308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.604102 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcccc865e7a6c7e2478c8c95a3b109e3') in 0.004488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.024347 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e8476fe433a8431861065f40e3105f') in 0.004271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.593149 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab941cb7c0236af993f355d56c22073b') in 0.004126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.208772 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366594fce281c67b41172ff0e947dcc5') in 0.004030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.796461 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96528587fa1f73fd7a93eb7aec12a21b') in 0.004218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.601140 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf90739a1c938ba425571c207d3cd21') in 0.004183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.810713 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0debf27faac7db7cd5c51765b40129f8') in 0.004226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.210678 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a9219c969c6964da74de6d4175a095') in 0.004049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.405832 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6179d87b84c6da4aaa016f3a9a6e03') in 0.004228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.615667 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770c3100934a46e5f018bd8c9884a050') in 0.004158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.199337 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1555e08e812d71af9ebb35383a53cc4f') in 0.004361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.203056 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ff6d934a307cdca61632c28ad1a488') in 0.004456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.810894 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500c77f82de608b824744f1c53db7e37') in 0.004082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.794063 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c803db8fc673644d7e5b7d330ec36c') in 0.004449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.996360 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5285f012510bb06c27e7a724e58707de') in 0.004573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.006864 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4c0761f12a243fe5301d8424300d7f') in 0.004440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.410655 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_default.prefab
+  artifactKey: Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_default.prefab using Guid(93ac831c23c3d3a4697170b11cb1faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6093ee45eedc55b8165e6bde5a3be9d8') in 0.004315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.404152 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5b7807604ea2aac830e939558a0d8e') in 0.006738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.781614 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82e1c2e9bd9f0dd777b96c5d06cb151') in 0.004070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.179909 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894f1b3895ecbced1c8d75c931ccbb81') in 0.003952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.603142 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026fdd1a1e1ff0ea6546cff38fd17c31') in 0.004097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.414853 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331542e8c73003d253377ac8a6b97edd') in 0.004108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.808551 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6446e36a5ba6d7c89dae81f10e8699e0') in 0.004763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.406658 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d1b5b3524a33ccbb539fde55c67368') in 0.004296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.237550 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f09974efde6b9dad2502d3cf23a3e3') in 0.004368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.156354 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caac8371e61ce7c533fba135a22da212') in 0.004319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.775291 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98db0be50f6bc05674521322ba262469') in 0.004602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.207159 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a181d654ec7a9ed942d5377658c97e9') in 0.004226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.411795 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280c8a24aa74995e7f3793e76eb9e8c1') in 0.004268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.179728 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec32b18419acd46cd13300f94b65471c') in 0.004212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.011958 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e248f06b043902796f1d338cb0c7579') in 0.004198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.605299 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7cd965013181076785b39b9f49bcc3') in 0.004119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.207467 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cecf4c0177771399c7a9890603fc13') in 0.004344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.199744 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40bf274c4bd389b5129b043c0b009fc7') in 0.003978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.797602 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6503b0a29d5cc508225f27a24b2867f3') in 0.004356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.203964 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05abb1c652894c04929bc521c4bd89b0') in 0.004709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.185356 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3b48b700d0b7963632c4401e26b9cd') in 0.003941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.007866 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492e328ab3b94cbd654f22cc6a5590cd') in 0.004341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.814827 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0474f7ec817f76a58faf20b82e1194') in 0.003966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.802719 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab46d6bf867a639b57d729bf9f81569') in 0.004012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.826000 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8d1c1a84298a50af27679a2be7657f') in 0.004244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.401261 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfcf634ea5d715c559df3666740e923') in 0.004162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.979363 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26b9b4d313712bbeb0c4307013ca07a') in 0.005814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.209942 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766778d320c8616dfdb9f0a8311d39ea') in 0.004308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.168171 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1719f4993d0e6dc493e86aab6d9060e8') in 0.004213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.411377 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee333cc0d2acf07140788872213f606') in 0.004540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.186230 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430360e9c7d70dfdfa50a4b4809b034e') in 0.004295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.815165 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d700f490f3ffcd207ff39766eda9e28') in 0.004378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.417706 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89783edb2390162c42dabb7b209d8103') in 0.004103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.804946 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac31f6513022faad393e3292d2a7f4c') in 0.004385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.613870 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc7a7f8c2bf2fac77b1a85ff34b8d43') in 0.004542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.392135 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6bfdfeb74edfdfd14a89bad43c9c42') in 0.004106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.985190 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858dfa778ac137447c542f1cf1843a02') in 0.004218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.813459 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d17fa2076b6a90746eb9c0fb96718f') in 0.003943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.404670 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ac8128ea3230431b0f48c8aaf0a795') in 0.004017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.210481 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ad7962f84cbbb6318faf55aaf0d1e7') in 0.006245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.387809 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7013d49f1571925f81b4473970da04d9') in 0.004369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.006358 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753d30a7a0724101d0cbfdc596a84625') in 0.003944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.200139 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af57f4f4fc882337d0e535bfdb2854e') in 0.004083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.436054 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc652ad38e87b4df23981034f5f4164') in 0.004211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.981577 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31294f63f61f5c72942914086c5dd6ad') in 0.003962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.595523 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e76812cb0036e64924cc3aa2712cc8c') in 0.004344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.404932 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a0f920f3573ad62d98b24e32c21ea9') in 0.004205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.220677 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282a50d66aa2d18beb0eb347e39c816f') in 0.004023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.014337 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d99fa0c2bafee2db03a228b03e1dfb7') in 0.003946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.987196 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf3b472fb46eee4e6a35a7a0a89b72d') in 0.004407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.798177 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cae1b10df7aeb6828e273fdd68645f9') in 0.004129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.008897 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20364820acc4c300785cb85ee3959ff3') in 0.004159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.206837 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18747536d6db88186a69b80c15f93bea') in 0.004006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.808638 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350a303bd218ffc71c2b5599aa2d69ec') in 0.026316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.786237 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f11d5a092af7d3ba37a31f5b89d70b') in 0.004291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.602067 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b40d14815f4f0c7e828a1115aeeaa4f') in 0.004257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.608961 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f377e7a9271f47f7b2381cbf3386e8') in 0.004033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.210005 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1782a3a3c905867fdc9fe8018f237d78') in 0.004221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.397576 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea4536d6be56c42f11b4759dfbfb39e') in 0.004492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.199076 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85a2205ce4ff86f3442bc0083e80ced') in 0.004150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.210844 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb538685fcc899e25289bb48a971b8da') in 0.004257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.999173 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a64d0e2ddf348c4cb374195c60dbfc') in 0.003959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.804549 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c014df43086f2fbc315f53c078abeb') in 0.004065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.402632 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adb5f901e0e3818821dc470f0650145') in 0.004046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.594678 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64715300f809970ea5cb99681176b7f9') in 0.004145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.808550 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e8b555aea79b8c60867d5078b47cc1') in 0.003973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.616423 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c50af8468ac9d2cc1d902eed726b5b8') in 0.004191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.800888 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f999d53c0f2cacd5439fae6913d8de12') in 0.004000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.017138 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707670fd377d0a1c412ab5521ce101a1') in 0.004065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.780647 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d29e51db8c7edafe9c96cd9a750e51') in 0.004064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.783590 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab
+  artifactKey: Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceberg_with_hole.prefab using Guid(ff5855e57f23c694e8209b12038f5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ea4c5eb902cd27180d74a6eec9a513') in 0.004000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.659949 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9d1ba57e6b6abc4745de9d2a2691e5') in 0.004064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.218768 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fe63f94445f25b07b0672bec721c61') in 0.003982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.207710 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a1bfb42cf4d94c3795e05e7ccacea7') in 0.004552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.393065 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab9a7345afda8447963633209ac005d') in 0.003974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.587009 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae708de8827416b40acce45c4a3de543') in 0.004295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.791608 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a22576a5286d5c67285a962a932aa6') in 0.004471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.204643 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14462347a65afdf30f57cebdb16a3b0') in 0.004202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.205817 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa36c14f3c5c2474cd4d97d48bea0e7') in 0.004318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.595112 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adba5f66972075b138764b614dfa9d1a') in 0.004078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.003912 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c5d2dc2d2712f19b193749d9c582bf') in 0.004063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.176903 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f5e265754aabcd796127aa1f8af6b4') in 0.004233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.001716 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ceb0125a7f43e823a19a0f236c8d861') in 0.025631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.580919 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92308fafd55e49022f6855e1a370b9d3') in 0.004397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.596305 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf02a7c7782ef6662baa20ce7b5c19f') in 0.003894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.197591 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ff3523929e427f9776941ca098aae2') in 0.004245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.264208 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e48bcb4c7998d0533363a2bcb69a4c') in 0.004081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.355969 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bff87601ce05d43d53c7a56188ace7') in 0.004565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.993780 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26eb9f8b5e540e9ca3ab74225407ad2') in 0.004543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.607591 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f30ebad1a5e064077f11da7f6fa887') in 0.004171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.801884 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd41c9c1af9b8a73886275b45e66f90f') in 0.003970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.200484 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0251041ff976ae91a808ecce8e8514b') in 0.004260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.001554 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70085b069184353df82b4cb8305699d1') in 0.003947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.205733 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a51963bab7ac62643edcd5e3465c3a') in 0.004294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.599371 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6904bbd8c8a8ae92dc3da57e115d25') in 0.003980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.403214 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38387bed01f94c373e8345d661a60a3a') in 0.004197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.990478 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38c66375c8c3a37becdf048d91891c8') in 0.004212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.200848 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b1c12e2e6bd766fd13deaab07130ab') in 0.004273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.402617 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0751cc36fffdfaedf7e9d460b4e9f5b9') in 0.004142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.413067 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ffc370793f59ed22740697fea8b578') in 0.004382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.199450 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0fe86998d381feead3482550f4d0c7') in 0.004012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.206584 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feab5334eee753c5791afd0809474f62') in 0.004056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.203347 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2825d3c0490df8b1148b85dac190eeef') in 0.004352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.808516 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdede4348fda3c363404ca5e1cbd85e') in 0.004919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.196533 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab
+  artifactKey: Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_submerged.prefab using Guid(50f9761127ec1c84fb46802cb376d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c248c54d7766877d0824eed5d854f41') in 0.003991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.658695 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d87d84c0b2e17e79381fe7a308be1df') in 0.004094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.617549 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b6a2ad0576e9a9a6364871a1e1f10e') in 0.004172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.211948 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b1dfcb2e38659dca4761d587baaf2e') in 0.004390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.396242 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd7c4300fadc496ddabf5ca899697ef') in 0.004150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.607435 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5c78685a11c1d5598701cf74275136') in 0.004267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.400723 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc1f8fee376b25e174cdcc3fb99b201') in 0.004179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.006686 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff7c2414c0f967e0dd1f75c497ddf25') in 0.004222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.402368 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e3945db58ed638bb6a5b776a591051') in 0.004173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.211066 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a722a4521826ba95ba88e2b0b53ea216') in 0.004218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.798962 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422192cbe0ec29333fcc2f1735c1ac7c') in 0.004054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.799774 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e27245da3d9f8f4fcd0283cad9ab77d') in 0.003961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.200606 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba9b2a0343668779ec3969720b0565b') in 0.004293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.806240 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d25fa6b242f42a537c6aab5104c6fe9') in 0.004266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.210126 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529c52d337c95b5cf91b417f11640855') in 0.004235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.997842 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21bdb7b03d6c22852cf88dad85917f2') in 0.004127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.403305 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2a95adf8a16b2424e8591fd30686f6') in 0.004263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.999187 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8abf9fb403f88661244ebda3008800c') in 0.004005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.006203 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e47090eeb181b9208805f45160bd0d') in 0.004067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.001380 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9744daba4d08dd2265830b68550e0639') in 0.004346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.406606 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c398ae7e0ff83309e9de15096dcf67') in 0.004400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.202543 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22410178e96e5d2d21a894edfc3c59f') in 0.004031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.605175 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e08f87765efe7fecb84df9faa5dfff') in 0.003923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.207716 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2074f42c5833f4cb13b4829137528af1') in 0.004215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.602612 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c7af5931aff334b2d6daa69e1ff3e8') in 0.004350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.199518 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5e1810c6ec8e32f92667b367a8409a') in 0.004184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.202643 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d0f8780a7369620c635eb51caff690') in 0.004109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.609180 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2f1e3cf14eae99e12738f1368876b0') in 0.004235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.398388 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5b175584fedb7d379114ceace65157') in 0.003954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.003100 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e2b35d37c3f2ee62af542aa9b9efcc') in 0.004129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.205555 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776a38697eb8e431a901bace0e2b9e3b') in 0.004199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.398319 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5d471f8bc55cecf00c101d52a872c6') in 0.004065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.198780 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a7d0cc13393cfaf2f69ee35ab26cde') in 0.004316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.002346 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bca044d09af2138b18a92d1982594f') in 0.004547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.996651 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96d3c577695e9d7910453bb8f9c5a99') in 0.004073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.624160 seconds.
+  path: Assets/Prefab/InGamePrefabs/iceburg_tall.prefab
+  artifactKey: Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/iceburg_tall.prefab using Guid(3dc784b8350b68441a8ca924867ea179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f32590410a288b6a460fd64f6d1baf') in 0.004159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.442096 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496541ae4084ea6694436e6800f8829f') in 0.006550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.408983 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca307c1299a14f344809baabef44ca29') in 0.003965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.184187 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e593d0f3d43113bb82e4f87ca123a51') in 0.004184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.998190 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1dda4f7ca64764f50031cb7f16bbeee') in 0.003970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.803828 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a721adc540c004fbafd8f210e047d1a') in 0.004175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.398424 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedc0cf63406b6f91a0c02834cefb9c6') in 0.004204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.403194 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9b21a8f5375f51b08d38b47d4cc492') in 0.016353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.983331 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee10db69d7079624ec21f02cec19986') in 0.004229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.600802 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e400606828a5e71fad2ffdaccb81f196') in 0.004113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.406816 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b376b3dd2e24af895079dedf0cb361') in 0.004110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.999222 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770897c98e9e1ede7d3aaa1ebe68ec27') in 0.004364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.802390 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb01cd9cb35767f1e0a83e651c9da40d') in 0.004011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.402692 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010215fa2571be358909487e4ef8e7c9') in 0.004515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.805017 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eecb1a5932a3e7d61faaf60a696583c') in 0.004279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.600703 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86928a3475dd88402db74bb12b85a083') in 0.004077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.998195 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139e54538af2f4abfc32a5aca3b21bf0') in 0.004308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.200191 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939c7854368fd3748908fa801d1eb183') in 0.004266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.617181 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed50578dbcb08932ae25af9c6a2b409') in 0.004466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.991768 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb290c8eb35abdcd2585b2333b7947c') in 0.004627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.996516 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a226ccea1a92d7a9984afb1c3c7fad62') in 0.004106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.000327 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e95a937e59c3cb4359c4bb9e415fbc') in 0.003946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.805358 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272088df1ff97a0bd34b6553cd43cc7b') in 0.003995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.199074 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368e9866359bf2b6214caa62a25bbc69') in 0.004357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.807611 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f589f2affc157b3c191c4a4bb80ea4') in 0.004614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.619833 seconds.
+  path: Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab
+  artifactKey: Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/InGamePrefabs/Short_Iceberg.prefab using Guid(4ef96d9d00a32d74fb76aad78dc8ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018032e879c976388ed484a1cfcd0c0c') in 0.004208 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003086 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.615 seconds
+Domain Reload Profiling:
+	ReloadAssembly (615ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (467ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (197ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (24.7 KB). Loaded Objects now: 4485.
+Memory consumption went from 154.9 MB to 154.9 MB.
+Total: 2.332100 ms (FindLiveObjects: 0.245700 ms CreateObjectMapping: 0.054200 ms MarkObjects: 2.016700 ms  DeleteObjects: 0.014800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003370 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.609 seconds
+Domain Reload Profiling:
+	ReloadAssembly (609ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (463ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (137ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (25.7 KB). Loaded Objects now: 4474.
-Memory consumption went from 154.6 MB to 154.6 MB.
-Total: 2.475800 ms (FindLiveObjects: 0.210900 ms CreateObjectMapping: 0.068000 ms MarkObjects: 2.179000 ms  DeleteObjects: 0.017400 ms)
+Unloading 37 unused Assets / (24.6 KB). Loaded Objects now: 4488.
+Memory consumption went from 154.9 MB to 154.9 MB.
+Total: 2.801100 ms (FindLiveObjects: 0.223100 ms CreateObjectMapping: 0.045900 ms MarkObjects: 2.511800 ms  DeleteObjects: 0.019700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

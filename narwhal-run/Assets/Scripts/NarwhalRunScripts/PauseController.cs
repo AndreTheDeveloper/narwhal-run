@@ -2,22 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class iceberg_controller : MonoBehaviour
+public class PauseController : MonoBehaviour
 {
-    public static float move_speed = 5f;
-
+    public static bool isPaused = false;
     // Start is called before the first frame update
     void Start()
     {
-        
+       isPaused = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(PauseController.isPaused == false) {
-            transform.Translate(Vector3.left * move_speed * Time.deltaTime);
-        }
+        
     }
-
 }

@@ -13,9 +13,11 @@ GameObject:
   - component: {fileID: 6391545474410667079}
   - component: {fileID: 3236211855382186726}
   - component: {fileID: 8030454832337036244}
+  - component: {fileID: 123192442578351623}
+  - component: {fileID: -5116203266655386963}
   m_Layer: 0
   m_Name: iceburg_tall
-  m_TagString: Untagged
+  m_TagString: iceberg
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,7 +97,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7442613013421622188}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -134,3 +136,73 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyCoordinates: {x: -31, y: 0, z: 0}
+--- !u!60 &123192442578351623
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7442613013421622188}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.51443785, y: 0.3555862}
+    oldSize: {x: 1.28, y: 1.8}
+    newSize: {x: 1.28, y: 1.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.58155465, y: 0.035437442}
+      - {x: 0.5902522, y: 0.0740643}
+      - {x: 0.5902519, y: 0.19994484}
+      - {x: 0.5575399, y: 0.26454273}
+      - {x: 0.5314624, y: 0.3294162}
+      - {x: 0.5089495, y: 0.3930791}
+      - {x: 0.48335233, y: 0.43751347}
+      - {x: 0.3789492, y: 0.613079}
+      - {x: 0.36285272, y: 0.6918795}
+      - {x: 0.33207417, y: 0.7431725}
+      - {x: 0.32504073, y: 0.7989596}
+      - {x: 0.2750056, y: 0.85698926}
+      - {x: 0.12837905, y: 0.8829835}
+      - {x: 0.005005288, y: 0.88600415}
+      - {x: -0.07350123, y: 0.89087766}
+      - {x: -0.09154827, y: 0.90927666}
+      - {x: -0.25545225, y: 0.91209394}
+      - {x: -0.29763559, y: 0.8699448}
+      - {x: -0.3023684, y: 0.7846274}
+      - {x: -0.35659805, y: 0.6664482}
+      - {x: -0.4040921, y: 0.52862036}
+      - {x: -0.4504601, y: 0.42842206}
+      - {x: -0.4603108, y: 0.3732465}
+      - {x: -0.48503, y: 0.32346705}
+      - {x: -0.5176356, y: 0.3152282}
+      - {x: -0.5455005, y: 0.2982934}
+      - {x: -0.5500494, y: 0.23517716}
+      - {x: -0.5751007, y: 0.17385504}
+      - {x: -0.57900906, y: 0.1281837}
+      - {x: -0.6024242, y: 0.025049463}
+      - {x: -0.53805786, y: 0.004661508}
+      - {x: 0.34542802, y: 0.014273528}
+      - {x: 0.54500556, y: 0.009168884}
+--- !u!114 &-5116203266655386963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7442613013421622188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a410b213209442fb15a69799f0240a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

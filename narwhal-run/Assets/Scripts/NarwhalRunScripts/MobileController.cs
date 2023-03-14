@@ -82,5 +82,13 @@ public class MobileController : MonoBehaviour
         else if (collision.gameObject.CompareTag("x2")) {
             multipler = true;
         }
+        else if (collision.gameObject.CompareTag("iceberg")) {
+            isJumping = false;
+            GetComponent<Rigidbody2D>().AddForce(Vector2.down * 8, ForceMode2D.Impulse);
+            transform.Rotate(new Vector3(0, 0, 90));
+            PauseController.isPaused = true;
+            spawn_manager_behaivour.spawning = false;
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        }
     }
 }
