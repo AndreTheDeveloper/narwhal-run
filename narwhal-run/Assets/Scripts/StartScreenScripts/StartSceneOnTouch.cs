@@ -5,8 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class StartSceneOnTouch : MonoBehaviour
 {
-    public void LoadScene(string sceneName)
+    public int sceneId;
+
+    public void LoadSceneWithDelay() {
+        Invoke("LoadScene", 0.5f);
+    }
+
+    public void LoadScene()
     {
-        SceneManager.LoadScene(sceneName);
+            SceneManager.LoadScene(sceneId);
     }
 }
