@@ -15,7 +15,7 @@ public class MobileController : MonoBehaviour
     private float tiltAngle = 0f;
     private Rigidbody2D rb;
     private float timeInAir = 0f;
-    public Text text;
+    public Text coinText;
     private int scoreCount = 0;
     private int pointsToAdd = 1;
     private float multiplyTimer = 15f;
@@ -30,53 +30,56 @@ public class MobileController : MonoBehaviour
 
     void Update()
     {
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began && !isJumping)
-        {
-            timeInAir = 0;
-            isJumping = true;
-            jumpTimer = 0f;
-            tiltAngle = 45f;
-        }
-
-        if (isJumping)
-        {
-            float normalizedTime = jumpTimer / jumpDuration;
-            float jumpPosition = Mathf.Sin(normalizedTime * Mathf.PI) * jumpHeight;
-            transform.position = startingPosition + Vector2.up * jumpPosition;
-            
-            timeInAir += Time.deltaTime;
-
-            if(timeInAir >= 1.251) {
-                tiltAngle = -45;
-            } else {
-                tiltAngle = 45;
-            }
-
-            transform.rotation = Quaternion.Euler(0, 0, tiltAngle);
-
-            jumpTimer += Time.deltaTime;
-
-            if (jumpTimer >= jumpDuration)
+        if(PauseController.isPaused == false) {
+            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began && !isJumping)
             {
-                isJumping = false;
-                transform.position = startingPosition;
-                transform.rotation = Quaternion.identity;
+                timeInAir = 0;
+                isJumping = true;
+                jumpTimer = 0f;
+                tiltAngle = 45f;
+            }
+
+            if (isJumping)
+            {
+                float normalizedTime = jumpTimer / jumpDuration;
+                float jumpPosition = Mathf.Sin(normalizedTime * Mathf.PI) * jumpHeight;
+                transform.position = startingPosition + Vector2.up * jumpPosition;
+                
+                timeInAir += Time.deltaTime;
+
+                if(timeInAir >= 1.251) {
+                    tiltAngle = -45;
+                } else {
+                    tiltAngle = 45;
+                }
+
+                transform.rotation = Quaternion.Euler(0, 0, tiltAngle);
+
+                jumpTimer += Time.deltaTime;
+
+                if (jumpTimer >= jumpDuration)
+                {
+                    isJumping = false;
+                    transform.position = startingPosition;
+                    transform.rotation = Quaternion.identity;
+                }
+            }
+            if(multipler) {
+                multiplyTimer -= Time.deltaTime;
+                pointsToAdd = 2;
+                if (multiplyTimer <= 0f) {
+                    pointsToAdd = 1;
+                }
             }
         }
-        if(multipler) {
-            multiplyTimer -= Time.deltaTime;
-            pointsToAdd = 2;
-            if (multiplyTimer <= 0f) {
-                pointsToAdd = 1;
-            }
-        }
+
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("coin"))
         {
             scoreCount += pointsToAdd;
-            text.text = scoreCount.ToString();
+            coinText.text = scoreCount.ToString();
             audioSource.Play();
         }
         else if (collision.gameObject.CompareTag("x2")) {
