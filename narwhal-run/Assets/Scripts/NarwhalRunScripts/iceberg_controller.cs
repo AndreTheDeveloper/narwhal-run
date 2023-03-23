@@ -5,6 +5,7 @@ using UnityEngine;
 public class iceberg_controller : MonoBehaviour
 {
     public static float move_speed = 5f;
+    private float addedSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +18,14 @@ public class iceberg_controller : MonoBehaviour
     {
         if(PauseController.isPaused == false) {
             transform.Translate(Vector3.left * move_speed * Time.deltaTime);
+
+            if(DistanceController.totalDistance >= 50.0) {
+                move_speed = DistanceController.velocity_2;
+                transform.Translate(Vector3.left * move_speed * Time.deltaTime);
+            } else if(DistanceController.totalDistance >= 100.0) {
+                move_speed = DistanceController.velocity_3;
+                transform.Translate(Vector3.left * move_speed * Time.deltaTime);
+            } 
         }
     }
 
