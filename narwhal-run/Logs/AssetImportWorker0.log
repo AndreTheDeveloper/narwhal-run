@@ -1,0 +1,361 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32682 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Nipit/OneDrive/Documents/Unity Games/narwhal-run/narwhal-run
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60003
+Successfully changed project path to: C:/Users/Nipit/OneDrive/Documents/Unity Games/narwhal-run/narwhal-run
+C:/Users/Nipit/OneDrive/Documents/Unity Games/narwhal-run/narwhal-run
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [39152] Host "[IP] 10.0.0.29 [Port] 0 [Flags] 2 [Guid] 1154604698 [EditorId] 1154604698 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NOSNEQQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [39152] Host "[IP] 10.0.0.29 [Port] 0 [Flags] 2 [Guid] 1154604698 [EditorId] 1154604698 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NOSNEQQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 95.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.20f1 (577897200b8b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Nipit/OneDrive/Documents/Unity Games/narwhal-run/narwhal-run/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3118
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006843 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Unauthorized device detected, Id: R3CT707JL1X, please add debug authorization and reconnect.
+0x00007ff60dbbbe5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff60dbc2a19 (Unity) StackWalker::ShowCallstack
+0x00007ff60eb49d93 (Unity) GetStacktrace
+0x00007ff60f1f869d (Unity) DebugStringToFile
+0x00007ff60cd1c1f2 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000017cc573b243 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000017cc573af1b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000017cc573ade1 (Mono JIT Code) UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+0x0000017cc573ab13 (Mono JIT Code) UnityEngine.Debug:LogFormat (string,object[])
+0x0000017cc554129b (Mono JIT Code) UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+0x0000017cc455fb0c (Mono JIT Code) UnityEditor.Android.TargetScanWorker:ScanSync ()
+0x0000017cc454cb43 (Mono JIT Code) UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+0x0000017cc4531483 (Mono JIT Code) UnityEditor.Android.TargetExtension:OnLoad ()
+0x0000017cc44eb48e (Mono JIT Code) UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
+0x0000017cc08ba005 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ff98d16feb4 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ff98d0ae764 (mono-2.0-bdwgc) [object.c:3066] do_runtime_invoke 
+0x00007ff98d0ae8fc (mono-2.0-bdwgc) [object.c:3113] mono_runtime_invoke 
+0x00007ff60dae07f4 (Unity) scripting_method_invoke
+0x00007ff60dabfff4 (Unity) ScriptingInvocation::Invoke
+0x00007ff60dababf5 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff60dbfa03b (Unity) Scripting::UnityEditor::Modules::ModuleManagerProxy::InitializePlatformSupportModules
+0x00007ff60dab4c50 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff60daaa92d (Unity) MonoManager::EndReloadAssembly
+0x00007ff60dab24b8 (Unity) MonoManager::ReloadAssembly
+0x00007ff60ea0494e (Unity) LoadUnityMonoAssemblies
+0x00007ff60e6eebe0 (Unity) Application::InitializeProject
+0x00007ff60eb544f8 (Unity) WinMain
+0x00007ff60ff1d0ee (Unity) __scrt_common_main_seh
+0x00007ffa31a526bd (KERNEL32) BaseThreadInitThunk
+0x00007ffa32e0a9f8 (ntdll) RtlUserThreadStart
+
+Android Extension - Scanning For ADB Devices 393 ms
+Refreshing native plugins compatible for Editor in 93.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Domain Reload Profiling:
+	ReloadAssembly (979ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (818ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (88ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (663ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (462ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009520 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nipit\OneDrive\Documents\Unity Games\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nipit\OneDrive\Documents\Unity Games\narwhal-run\narwhal-run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 109.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+- Completed reload, in  1.124 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1124ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (924ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (452ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (56.5 KB). Loaded Objects now: 4451.
+Memory consumption went from 152.7 MB to 152.7 MB.
+Total: 2.907900 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.099400 ms MarkObjects: 2.414200 ms  DeleteObjects: 0.079500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1223182.795754 seconds.
+  path: Assets/Sprites/Sprite_Sheets/New Folder
+  artifactKey: Guid(428ad8f1918e5c04488277a024733be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheets/New Folder using Guid(428ad8f1918e5c04488277a024733be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd242ba75c2122bb3396765902581034') in 0.008466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.958593 seconds.
+  path: Assets/Sprites/Sprite_Sheets/New Folder 1
+  artifactKey: Guid(6f5d71b2e3236674e9ac77ffc02a1137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheets/New Folder 1 using Guid(6f5d71b2e3236674e9ac77ffc02a1137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22731cb45cea49bf2678bc7e3d9ba126') in 0.003333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.537754 seconds.
+  path: Assets/Sprites/Sprite_Sheets/New Folder 2
+  artifactKey: Guid(d24db60bf58094e4ab7b8c5667460500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheets/New Folder 2 using Guid(d24db60bf58094e4ab7b8c5667460500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af145b8c144f655e754ac665da3019dc') in 0.003353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.298663 seconds.
+  path: Assets/Sprites/Sprite_Sheets/New Folder 3
+  artifactKey: Guid(c661355d13670e244937cda2fc6a034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheets/New Folder 3 using Guid(c661355d13670e244937cda2fc6a034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7060da196036a709adfca763a6141586') in 0.003029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.942395 seconds.
+  path: Assets/Sprites/Sprite_Sheets/Play_Button
+  artifactKey: Guid(428ad8f1918e5c04488277a024733be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheets/Play_Button using Guid(428ad8f1918e5c04488277a024733be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fe68f27418d847b75ed1aab71faa00') in 0.003081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.486384 seconds.
+  path: Assets/Sprites/Sprite_Sheets/Shop_Button
+  artifactKey: Guid(6f5d71b2e3236674e9ac77ffc02a1137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheets/Shop_Button using Guid(6f5d71b2e3236674e9ac77ffc02a1137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c0ea554a88c99a01e366371b1bbb63') in 0.003267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.975357 seconds.
+  path: Assets/Sprites/Sprite_Sheets/Home_Button
+  artifactKey: Guid(d24db60bf58094e4ab7b8c5667460500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheets/Home_Button using Guid(d24db60bf58094e4ab7b8c5667460500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1abecc6f59536d7950277c172d8089') in 0.003010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.359375 seconds.
+  path: Assets/Sprites/Sprite_Sheets/Retry Button
+  artifactKey: Guid(c661355d13670e244937cda2fc6a034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheets/Retry Button using Guid(c661355d13670e244937cda2fc6a034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9801624d1b53aff186f997d47df922c') in 0.003187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.226580 seconds.
+  path: Assets/Sprites/Sprite_Sheets/Retry_Button
+  artifactKey: Guid(c661355d13670e244937cda2fc6a034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheets/Retry_Button using Guid(c661355d13670e244937cda2fc6a034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d06513fde3bfa483297980b1e4d5e0') in 0.003030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.819417 seconds.
+  path: Assets/Sprites/Sprite_Sheets/PlayButton.controller
+  artifactKey: Guid(e3901bf6e375f4849b3f098b40067e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheets/PlayButton.controller using Guid(e3901bf6e375f4849b3f098b40067e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28be68e341f645f49464948ab065be61') in 0.024730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.365520 seconds.
+  path: Assets/Sprites/Sprite_Sheets/Shop_Button/UI_Shop_Button.png
+  artifactKey: Guid(72a007593186e114193ce04af83934f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheets/Shop_Button/UI_Shop_Button.png using Guid(72a007593186e114193ce04af83934f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36116375b45b4493997296adce2c4dd5') in 0.071757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.389265 seconds.
+  path: Assets/Sprites/Sprite_Sheets/Shop_Button/UI_Shop_Button.png
+  artifactKey: Guid(72a007593186e114193ce04af83934f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheets/Shop_Button/UI_Shop_Button.png using Guid(72a007593186e114193ce04af83934f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58322929fdf1091bf02a19cf9bad6691') in 0.011766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.798946 seconds.
+  path: Assets/Sprites/Sprite_Sheets/Shop_Button/UI_Shop_Button.png
+  artifactKey: Guid(72a007593186e114193ce04af83934f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheets/Shop_Button/UI_Shop_Button.png using Guid(72a007593186e114193ce04af83934f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5028bc912b8da927ebfcf96aa8f324f0') in 0.009587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.172468 seconds.
+  path: Assets/Sprites/Sprite_Sheets/Shop_Button/UI_Shop_Button.png
+  artifactKey: Guid(72a007593186e114193ce04af83934f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheets/Shop_Button/UI_Shop_Button.png using Guid(72a007593186e114193ce04af83934f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7c508e23258ce34a9b74ff787bccf3') in 0.036495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 199.549336 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Mode.png
+  artifactKey: Guid(ca778bc7303b24948abf3e907abbf2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Mode.png using Guid(ca778bc7303b24948abf3e907abbf2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8506eb46c34414ec6bedf69f04ba8f15') in 0.015158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 182.748516 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones.png
+  artifactKey: Guid(7b86a539750e1a44ca7ec5b7f690babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones.png using Guid(7b86a539750e1a44ca7ec5b7f690babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbff919ec10990cc947f984e29e2b47') in 0.011501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003291 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones@4x.png
+  artifactKey: Guid(61ac40b257b3a994f841856ad38b2b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones@4x.png using Guid(61ac40b257b3a994f841856ad38b2b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e9f5c2656b625a07a66e153a4b301e') in 0.014646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001250 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png
+  artifactKey: Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png using Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef2664ede1c3c2ece63a49dbb59dc0f') in 0.078107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Create Bones@2x.png
+  artifactKey: Guid(fea84712d555ee04a8147088aad76931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Create Bones@2x.png using Guid(fea84712d555ee04a8147088aad76931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9a851bcce90b820d809d651707b9ec') in 0.022273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Create Bones@4x.png
+  artifactKey: Guid(7e1aff9652c0dac418d9aa42f5f24dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Create Bones@4x.png using Guid(7e1aff9652c0dac418d9aa42f5f24dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c7b4bf60a3279beaf4610358f8aa93') in 0.012995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create Bones@3x.png
+  artifactKey: Guid(803b0b9bfc1fd824aae8423bfbab83b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create Bones@3x.png using Guid(803b0b9bfc1fd824aae8423bfbab83b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef05572bf4acdd8115c1f5796e60804') in 0.014967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Create Bones@3x.png
+  artifactKey: Guid(6e2c347c12b3fe04b94007ad25ace23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Create Bones@3x.png using Guid(6e2c347c12b3fe04b94007ad25ace23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdabd05b1200abd34bf720c1cdc9785') in 0.012913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.098581 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Mesh.png
+  artifactKey: Guid(f4e90b0a1e5a5bc46897cdcf5a142111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Mesh.png using Guid(f4e90b0a1e5a5bc46897cdcf5a142111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd354621bf38966ef09da9cf3dd2318cd') in 0.012705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Mesh@3x.png
+  artifactKey: Guid(e79a9e9d6396eba438900afb0357e808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Mesh@3x.png using Guid(e79a9e9d6396eba438900afb0357e808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1cc50e07e806965b35976f490c3b78') in 0.012320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Mesh@2x.png
+  artifactKey: Guid(a14979d2b0467b14abf4467f248460fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Mesh@2x.png using Guid(a14979d2b0467b14abf4467f248460fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e48c11b7e6e47b010b56c963f1fa967') in 0.013198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_refresh@2x.png
+  artifactKey: Guid(602b72d4617c3694aa94419fc1b68e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_refresh@2x.png using Guid(602b72d4617c3694aa94419fc1b68e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590bb15b1fc852f470db83e3071d52cc') in 0.011303 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
