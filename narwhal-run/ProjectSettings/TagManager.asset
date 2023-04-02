@@ -8,6 +8,8 @@ TagManager:
   - coin
   - iceberg
   - x2
+  - homebttn
+  - retrybttn
   layers:
   - Default
   - TransparentFX

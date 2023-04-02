@@ -5,10 +5,11 @@ using UnityEngine;
 public class AnimationController : MonoBehaviour
 {
      public Animator animator;
+     public string button;
 
     public void PlayAnimation()
     {
-        animator.Play("Play_Button_Press");
+        animator.Play(button);
     }
 
 }

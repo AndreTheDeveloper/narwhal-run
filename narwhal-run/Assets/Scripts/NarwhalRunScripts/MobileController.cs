@@ -21,6 +21,11 @@ public class MobileController : MonoBehaviour
     private float multiplyTimer = 15f;
     private bool multipler = false;
     public AudioSource audioSource;
+    public GameObject homebttn;
+    public Vector3 homebttnPos;
+    public GameObject retrybttn;
+    public Vector3 retrybttnPos;
+
 
     void Start()
     {
@@ -92,6 +97,12 @@ public class MobileController : MonoBehaviour
             PauseController.isPaused = true;
             spawn_manager_behaivour.spawning = false;
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
+
+            float screenWidth = Screen.width;
+            float screenHeight = Screen.height;
+
+            homebttn.transform.position = homebttnPos;
+            retrybttn.transform.position = retrybttnPos;
         }
     }
 }

@@ -351,6 +351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  button: 
 --- !u!114 &225153388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -836,6 +837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1424966522}
+  button: Play_Button_Press
 --- !u!1 &1451873751
 GameObject:
   m_ObjectHideFlags: 0

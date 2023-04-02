@@ -13,6 +13,9 @@ public class StartSceneOnTouch : MonoBehaviour
 
     public void LoadScene()
     {
+        if(sceneId == 1) {
+            PauseController.isPaused = false;
+        }
             SceneManager.LoadScene(sceneId);
     }
 }
