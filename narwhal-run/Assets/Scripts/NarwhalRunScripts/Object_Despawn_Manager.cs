@@ -12,4 +12,8 @@ public class Object_Despawn_Manager : MonoBehaviour
             Destroy(gameObject); // Destroy the object when it reaches the specified coordinates
         }
     }
+
+    public void DestroyOnButtonPress() {
+        Destroy(gameObject);
+    }
 }

@@ -9,7 +9,7 @@ public class spawn_manager_behaivour : MonoBehaviour
     [SerializeField] List<GameObject> pickups;
     [SerializeField] List<Vector3> coinCordinates;
     [SerializeField] public Vector3 icebergSpawnPosition;
-    private float spawnDelay = 4.0f;
+    public static float spawnDelay = 4.0f;
     public static bool spawning = false;
 
     // Start is called before the first frame update

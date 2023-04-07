@@ -10,7 +10,7 @@ public class MobileController : MonoBehaviour
    private bool isJumping = false;
     private Vector2 startingPosition;
     public float jumpHeight = 5f;
-    public float jumpDuration = 0.5f;
+    public static float jumpDuration = 2.5f;
     private float jumpTimer = 0f;
     private float tiltAngle = 0f;
     private Rigidbody2D rb;
@@ -21,10 +21,7 @@ public class MobileController : MonoBehaviour
     private float multiplyTimer = 15f;
     private bool multipler = false;
     public AudioSource audioSource;
-    public GameObject homebttn;
-    public Vector3 homebttnPos;
-    public GameObject retrybttn;
-    public Vector3 retrybttnPos;
+    public static float halfOfTimeInAir = 1.251f;
 
 
     void Start()
@@ -52,7 +49,7 @@ public class MobileController : MonoBehaviour
                 
                 timeInAir += Time.deltaTime;
 
-                if(timeInAir >= 1.251) {
+                if(timeInAir >= halfOfTimeInAir) {
                     tiltAngle = -45;
                 } else {
                     tiltAngle = 45;
@@ -97,12 +94,6 @@ public class MobileController : MonoBehaviour
             PauseController.isPaused = true;
             spawn_manager_behaivour.spawning = false;
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
-
-            float screenWidth = Screen.width;
-            float screenHeight = Screen.height;
-
-            homebttn.transform.position = homebttnPos;
-            retrybttn.transform.position = retrybttnPos;
         }
     }
 }

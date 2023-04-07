@@ -15,8 +15,8 @@ public class DistanceController : MonoBehaviour
     private float distance_2 = 0;
     private float distance_3 = 0;
     private float velocity_1 = 5;
-    public static float velocity_2 = 7;
-    public static float velocity_3 = 9;
+    public static float velocity_2 = 5.5f;
+    public static float velocity_3 = 7f;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +28,7 @@ public class DistanceController : MonoBehaviour
     void Update()
     {
         if(PauseController.isPaused == false) {
-            distanceText.text = totalDistance + " m";
+            distanceText.text = totalDistance + "";
         }
     }
 
@@ -42,20 +42,26 @@ public class DistanceController : MonoBehaviour
                     distance_1 = time_1 * velocity_1;
                     totalDistance = distance_1;
                 }
-                else if(totalDistance >= 50 && totalDistance <= 100)
+                else if(totalDistance >= 50 && totalDistance < 150)
                 {
                     yield return new WaitForSeconds(1f);
                     time_2 += 1;
                     distance_2 = time_2 * velocity_2;
                     totalDistance = distance_1 + distance_2;
+                    MobileController.jumpDuration = 2.2f;
+                    MobileController.halfOfTimeInAir = 1.1f;
+                    spawn_manager_behaivour.spawnDelay = 3f;
 
                 }
-                else if(totalDistance >= 100)
+                else if(totalDistance >= 150)
                 {
                     yield return new WaitForSeconds(1f);
                     time_3 += 1;
                     distance_3 = time_3 * velocity_3;
-                    totalDistance = distance_1 + distance_2 + distance_3;  
+                    totalDistance = distance_1 + distance_2 + distance_3; 
+                    MobileController.jumpDuration = 2f; 
+                    MobileController.halfOfTimeInAir = 1f;
+                    spawn_manager_behaivour.spawnDelay = 2f;
                 }
             }
             else {
