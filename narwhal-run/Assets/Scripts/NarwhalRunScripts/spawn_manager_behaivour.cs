@@ -24,7 +24,10 @@ public class spawn_manager_behaivour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (PauseController.isPaused)
+        {
+            spawning = false;
+        }
     }
 
     void Spawn_Initiation()
