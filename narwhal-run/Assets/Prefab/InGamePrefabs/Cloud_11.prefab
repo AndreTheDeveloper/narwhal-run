@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5529329913680154849}
   - component: {fileID: 345996277213012152}
   - component: {fileID: 4715325257558240321}
+  - component: {fileID: 1867718160199859104}
   m_Layer: 0
   m_Name: Cloud_11
   m_TagString: Untagged
@@ -95,6 +96,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09ea788af7a09fb478d471ecce7f2bb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyCoordinates: {x: -31, y: 0, z: 0}
+--- !u!114 &1867718160199859104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7612629676938200873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8b82a39d36c12047a70ad8b5a2b11dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   destroyCoordinates: {x: -31, y: 0, z: 0}

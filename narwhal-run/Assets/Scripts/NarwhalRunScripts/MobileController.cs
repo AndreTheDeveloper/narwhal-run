@@ -28,6 +28,8 @@ public class MobileController : MonoBehaviour
     {
         startingPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
+        GetComponent<ParticleSystem>().Stop();
+        audioSource.Stop();
     }
 
     void Update()
@@ -76,12 +78,13 @@ public class MobileController : MonoBehaviour
         }
 
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("coin"))
         {
             scoreCount += pointsToAdd;
             coinText.text = scoreCount.ToString();
+            GetComponent<ParticleSystem>().Play();
             audioSource.Play();
         }
         else if (collision.gameObject.CompareTag("x2")) {

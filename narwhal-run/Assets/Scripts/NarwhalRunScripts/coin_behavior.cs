@@ -27,9 +27,8 @@ public class coin_behavior : MonoBehaviour
             } 
         }
     }
-    void OnCollisionEnter2D(Collision2D collision)
-{
-    Destroy(gameObject);
-}
-
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        Destroy(gameObject);
+    }
 }
